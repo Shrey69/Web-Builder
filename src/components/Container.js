@@ -35,7 +35,7 @@ const Container = ({start1, start2, highlight, rating, word, star, imgbest, best
      </div>
 
      <div className='p-8 flex-col justify-between'>
-       <div className='flex flex-col  bg-blue-50 rounded-lg p-6 pb-10 '>
+       <div className='flex flex-col  bg-blue-50 rounded-lg p-6  px-16 '>
              <span className='text-3xl text-blue-900 pl-8 '>{rating}</span>  
              <span className='pl-4'>{word} 
                {star}

@@ -4,8 +4,8 @@ import Container from './Container'
 const Main = () => {
   return (
     <div>
-      <ul className='list-decimal'>
-        <li className="">
+      <ul className='list-decimal list-outside '>
+        <li className=" ">
         <Container
       imgbest = {<img className='pr-2' src={require("../images/trophy.png")} alt='' />}
       best= "Best Choice"

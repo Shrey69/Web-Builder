@@ -5,7 +5,7 @@ const Header = () => {
     <div className='bg-slate-900 h-16 flex justify-center items-center'>
         
       <div className='p-10 m-10 '>
-        <button className='absolute pt-1 pl-2'>
+        <button className='absolute pt-1 pl-1'>
         <img  alt='search' src={require("..//images/search.png")}/>
         </button>
       <input
