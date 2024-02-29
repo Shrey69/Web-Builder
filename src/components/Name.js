@@ -31,7 +31,7 @@ const Name = () => {
        <hr /> 
        <ButtonList />
 
-       <div className='flex'>
+       <div className='flex pb-6'>
         {["Home", "Hosting for all", "Hosting", "Hosting6", "Hosting5"].map((item, index) => (
             <span className='flex p-1 ' key={index}>
                 {item}
