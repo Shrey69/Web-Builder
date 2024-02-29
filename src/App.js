@@ -10,7 +10,7 @@ function App() {
   return (
     <div className=''>
       <Header/>
-      <div className='px-72'>
+      <div className='px-6 md:px-72'>
         <Name />
         <Main />
         <Related/>
