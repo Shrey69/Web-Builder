@@ -23,7 +23,7 @@ const Block = () => {
             <span></span>
         </div>
 
-      <button className='bg-blue-500  w-72 font-medium text-white p-2 rounded-lg hover:cursor-pointer hover:shadow-md'>View Deal</button>
+      <button className='bg-blue-500 h-12 w-72 font-medium text-white p-2 rounded-lg hover:cursor-pointer hover:shadow-md'>View Deal</button>
     </div>
   )
 }

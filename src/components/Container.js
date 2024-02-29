@@ -9,7 +9,7 @@ const Container = ({start1, start2, highlight, rating, word, star, imgbest, best
             {best}
         </label>
 
-     <div className='py-12 flex shadow-md rounded-xl'>
+     <div className='py-12 flex shadow-md rounded-xl hover:shadow-lg'>
      
      <div className='px-20 '>
        
@@ -34,15 +34,15 @@ const Container = ({start1, start2, highlight, rating, word, star, imgbest, best
             </span>
      </div>
 
-     <div className='p-8 flex-col h*screen justify-between'>
-       <div className='flex flex-col bg-blue-50 rounded-lg p-6 pb-10 '>
+     <div className='p-8 flex-col justify-between'>
+       <div className='flex flex-col  bg-blue-50 rounded-lg p-6 pb-10 '>
              <span className='text-3xl text-blue-900 pl-8 '>{rating}</span>  
              <span className='pl-4'>{word} 
                {star}
                </span>  
        </div>
        <div className='pt-6'>
-       <button className='bg-blue-500  w-40 text-white p-2 rounded-lg hover:cursor-pointer hover:shadow-md font-medium'>View</button>
+       <button className='bg-blue-500  w-60 h-12 text-white p-2 rounded-lg hover:cursor-pointer hover:shadow-md font-medium'>View</button>
        </div>
 
      </div>

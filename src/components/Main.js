@@ -38,8 +38,8 @@ const Main = () => {
 
         <li>
         <Container
-        imgbest = ""
-        best= ""
+        imgbest = {<img className='pr-2' src={require("../images/trophy.png")} alt='' />}
+        best= "Best Choice"
         start1="WixPro 72-Inch Responsive Website Builder"
        start2="- Comprehensive Digital Platform Creation Tool,
        Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)" 

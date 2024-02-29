@@ -2,7 +2,7 @@ import React from 'react'
 
 const SignUp = () => {
   return (
-    <div className='flex justify-between items-center pt-4'>
+    <div className='flex justify-between items-center py-10'>
       <p className='text-4xl text-slate-600'>Sign up and get exclusive special deals</p>
 
       <div>
