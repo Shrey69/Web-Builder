@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Name from './components/Name';
 import Related from './components/Related';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Name />
         <Main />
         <Related/>
+        <SignUp />
       </div>
     </div>
   );
